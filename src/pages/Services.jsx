@@ -13,7 +13,7 @@ const Services = () => {
         <div className="bg-black text-white font-body selection:bg-blue-600 selection:text-white overflow-x-hidden">
 
             {/* 1. ENTRY EXPERIENCE — THE SYSTEM */}
-            <section className="relative h-screen flex flex-col items-center justify-center bg-black overflow-hidden sticky top-0 z-0">
+            <section className="relative min-h-screen md:h-screen flex flex-col items-center justify-start md:justify-center bg-black overflow-hidden sticky top-0 z-0 pt-32 md:pt-0 pb-10 md:pb-0">
                 {/* Animated Background */}
                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-30 mix-blend-overlay"></div>
                 <motion.div
