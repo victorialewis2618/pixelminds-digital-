@@ -18,7 +18,7 @@ const About = () => {
         <div className="bg-black text-white font-body selection:bg-blue-600 selection:text-white overflow-x-hidden">
 
             {/* 1. HERO SECTION: CLEAN + TRENDY + PROFESSIONAL */}
-            <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-black py-20">
+            <section className="relative min-h-screen flex items-start md:items-center overflow-hidden bg-black pt-32 pb-20 md:py-20">
                 {/* Light/Soft Abstract Gradient Background */}
                 <div className="absolute top-0 right-0 w-[50vw] h-[50vw] bg-blue-900/20 rounded-full blur-[120px] animate-pulse-slow"></div>
                 <div className="absolute bottom-0 left-0 w-[40vw] h-[40vw] bg-purple-900/10 rounded-full blur-[100px]"></div>
