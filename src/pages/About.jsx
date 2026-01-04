@@ -18,7 +18,7 @@ const About = () => {
         <div className="bg-black text-white font-body selection:bg-blue-600 selection:text-white overflow-x-hidden">
 
             {/* 1. HERO SECTION: CLEAN + TRENDY + PROFESSIONAL */}
-            <section className="relative h-screen flex items-center overflow-hidden bg-black">
+            <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-black py-20">
                 {/* Light/Soft Abstract Gradient Background */}
                 <div className="absolute top-0 right-0 w-[50vw] h-[50vw] bg-blue-900/20 rounded-full blur-[120px] animate-pulse-slow"></div>
                 <div className="absolute bottom-0 left-0 w-[40vw] h-[40vw] bg-purple-900/10 rounded-full blur-[100px]"></div>
@@ -34,7 +34,7 @@ const About = () => {
                             variants={staggerContainer}
                             className="max-w-2xl"
                         >
-                            <motion.h1 variants={fadeInUp} className="text-4xl md:text-7xl font-bold font-heading leading-[1.1] mb-6 tracking-tight">
+                            <motion.h1 variants={fadeInUp} className="text-3xl xs:text-4xl md:text-7xl font-bold font-heading leading-tight mb-6 tracking-tight">
                                 We Build Digital <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Growth That</span> <br />
                                 Actually Performs
@@ -59,7 +59,7 @@ const About = () => {
                             initial={{ opacity: 0, x: 50 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 1, delay: 0.5 }}
-                            className="relative h-[300px] md:h-[600px] flex items-center justify-center"
+                            className="relative h-[250px] md:h-[600px] flex items-center justify-center"
                         >
                             {/* Abstract Graphic: Growth Curves */}
                             <svg viewBox="0 0 200 200" className="w-full h-full opacity-60">
@@ -239,7 +239,7 @@ const About = () => {
                 <div className="container mx-auto px-6">
                     <div className="text-center mb-16 max-w-3xl mx-auto">
                         <h2 className="text-4xl font-bold font-heading mb-6">Our Expertise</h2>
-                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
                             {[
                                 { title: "SEO", icon: Search }, { title: "Performance Marketing", icon: Zap },
                                 { title: "Social Media", icon: Share2 }, { title: "Content Marketing", icon: PenTool },
