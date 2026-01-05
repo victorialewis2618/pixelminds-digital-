@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, MessageCircle, BarChart3, Target, Zap, Globe, Users, TrendingUp, Layers, Video, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import founder1 from '../assets/founder-hrishi-final.jpg';
+import founder1 from '../assets/founder-hrishi-updated.jpg';
 import founder2 from '../assets/founder-rushi-final.png';
 
 const fadeInUp = {
@@ -75,21 +75,21 @@ const Home = () => {
                             <motion.div
                                 animate={{ y: [0, -20, 0] }}
                                 transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                                className="absolute top-1/4 right-0 bg-zinc-900/90 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-xl"
+                                className="absolute top-10 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-auto md:top-1/4 md:right-0 bg-zinc-900/90 backdrop-blur-md p-4 md:p-6 rounded-2xl border border-white/10 shadow-xl w-max max-w-[90%]"
                             >
-                                <BarChart3 className="text-green-500 mb-2" />
-                                <p className="font-bold text-lg">+350% ROI</p>
-                                <p className="text-xs text-gray-500">Performance Verified</p>
+                                <BarChart3 className="text-green-500 mb-2 md:mb-3 w-6 h-6 md:w-8 md:h-8" />
+                                <p className="font-bold text-xl md:text-3xl">High Performance</p>
+                                <p className="text-xs md:text-sm text-gray-400">Consistent, Scalable Growth</p>
                             </motion.div>
 
                             <motion.div
                                 animate={{ y: [0, 20, 0] }}
                                 transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 }}
-                                className="absolute bottom-1/4 left-10 bg-zinc-900/90 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-xl"
+                                className="absolute bottom-10 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 md:bottom-1/4 bg-zinc-900/90 backdrop-blur-md p-4 md:p-6 rounded-2xl border border-white/10 shadow-xl w-max max-w-[90%]"
                             >
-                                <Users className="text-blue-500 mb-2" />
-                                <p className="font-bold text-lg">1M+ Leads</p>
-                                <p className="text-xs text-gray-500">Generated Globally</p>
+                                <Globe className="text-blue-500 mb-2 md:mb-3 w-6 h-6 md:w-8 md:h-8" />
+                                <p className="font-bold text-xl md:text-3xl">Global Impact</p>
+                                <p className="text-xs md:text-sm text-gray-400">Serving Brands Worldwide</p>
                             </motion.div>
                         </motion.div>
                     </div>
@@ -212,7 +212,7 @@ const Home = () => {
                             whileHover={{ y: -10 }}
                             className="bg-zinc-900 rounded-3xl overflow-hidden border border-white/5 group"
                         >
-                            <div className="aspect-[4/3] overflow-hidden">
+                            <div className="aspect-square overflow-hidden">
                                 <img src={founder1} alt="Hrishikesh Bhujbal" className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />
                             </div>
                             <div className="p-10">
@@ -233,7 +233,7 @@ const Home = () => {
                             whileHover={{ y: -10 }}
                             className="bg-zinc-900 rounded-3xl overflow-hidden border border-white/5 group"
                         >
-                            <div className="aspect-[4/3] overflow-hidden">
+                            <div className="aspect-square overflow-hidden">
                                 <img src={founder2} alt="Rushikesh Ghule" className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />
                             </div>
                             <div className="p-10">

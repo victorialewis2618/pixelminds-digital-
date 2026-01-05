@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Users, Target, Zap, TrendingUp, Award, Layers } from 'lucide-react';
-import founder1 from '../assets/founder-hrishi-final.jpg';
+import founder1 from '../assets/founder-hrishi-updated.jpg';
 import founder2 from '../assets/founder-rushi-final.png';
 
 const Founders = () => {

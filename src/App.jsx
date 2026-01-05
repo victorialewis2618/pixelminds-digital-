@@ -23,7 +23,7 @@ const ScrollToTop = () => {
 // Global Floating Contact Buttons
 const FloatingContact = () => {
   return (
-    <div className="fixed bottom-8 right-8 z-50 flex flex-col gap-4">
+    <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50 flex flex-col gap-3 md:gap-4">
       {/* Call Button */}
       <a
         href="tel:+919623761343"

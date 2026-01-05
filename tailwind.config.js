@@ -10,8 +10,8 @@ export default {
                 'xs': '475px',
             },
             fontFamily: {
-                heading: ['Space Grotesk', 'sans-serif'],
-                body: ['Outfit', 'sans-serif'],
+                heading: ['Plus Jakarta Sans', 'sans-serif'],
+                body: ['Inter', 'sans-serif'],
             },
         },
     },
