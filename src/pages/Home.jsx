@@ -219,7 +219,7 @@ const Home = () => {
                                 <div className="flex justify-between items-start mb-6">
                                     <div>
                                         <h3 className="text-3xl font-bold font-heading">Hrishikesh Bhujbal</h3>
-                                        <p className="text-blue-500 font-bold uppercase text-sm tracking-mid">SEO Specialist</p>
+                                        <p className="text-blue-500 font-bold uppercase text-sm tracking-mid">Co-founder and SEO Specialist</p>
                                     </div>
                                 </div>
                                 <p className="text-gray-400 leading-relaxed mb-6">
