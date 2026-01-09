@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Force deploy trigger v2 - timestamp 2026-01-09
+  // Force deploy trigger v3 - final cap fix
 })
