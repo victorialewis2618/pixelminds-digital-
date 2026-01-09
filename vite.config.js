@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Force deploy trigger v3 - final cap fix
+  // Force deploy trigger v4 - name update
 })

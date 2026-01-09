@@ -90,7 +90,7 @@ const Founders = () => {
                             className="absolute inset-0 w-full h-full object-cover object-top filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                         />
                         <div className="absolute bottom-0 left-0 p-12 z-20 bg-gradient-to-t from-black via-black/50 to-transparent w-full">
-                            <h2 className="text-6xl md:text-8xl font-bold font-heading text-white">Hrishikesh Bhujbal</h2>
+                            <h2 className="text-6xl md:text-8xl font-bold font-heading text-white">Hrishikesh</h2>
                             <p className="text-blue-500 font-mono text-xl tracking-widest mt-2 uppercase">Co-founder & SEO Specialist</p>
                         </div>
                     </motion.div>
