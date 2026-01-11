@@ -332,12 +332,12 @@ const Home = () => {
             </section>
 
             {/* 3. SERVICES SNAPSHOT - CREATIVE INTERACTIVE GRID */}
-            <section className="py-12 md:py-24 lg:py-32 bg-black relative overflow-hidden">
+            <section className="py-12 md:py-24 lg:py-32 xl:py-40 bg-black relative overflow-hidden">
                 {/* Background Effects */}
                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"></div>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] md:w-[800px] h-[600px] md:h-[800px] bg-blue-500/10 rounded-full blur-[120px] md:blur-[150px]"></div>
 
-                <div className="container mx-auto px-4 sm:px-6 relative z-10">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 relative z-10 max-w-screen-2xl">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -348,7 +348,7 @@ const Home = () => {
                             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-blue-400" />
                             <span className="text-blue-400 font-bold tracking-widest uppercase text-xs sm:text-sm">Our Capabilities</span>
                         </div>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading mt-3 sm:mt-4 mb-4 sm:mb-6 px-4">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading mt-3 sm:mt-4 mb-4 sm:mb-6 px-4">
                             Full-Spectrum Digital Growth
                         </h2>
                         <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto px-4">
@@ -356,7 +356,7 @@ const Home = () => {
                         </p>
                     </motion.div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-5 md:gap-6 xl:gap-8 max-w-7xl mx-auto">
                         {servicesData.map((service, i) => (
                             <motion.div
                                 key={service.id}
