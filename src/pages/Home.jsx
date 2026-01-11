@@ -438,14 +438,14 @@ const Home = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         onClick={() => setSelectedService(null)}
-                        className="fixed inset-0 bg-black/80 backdrop-blur-md z-[100] flex items-start justify-center p-4 overflow-y-auto"
+                        className="fixed inset-0 bg-black/80 backdrop-blur-md z-[100] flex items-start justify-center pt-20 sm:pt-24 px-4 pb-4 overflow-y-auto"
                     >
                         <motion.div
                             initial={{ scale: 0.9, y: 20 }}
                             animate={{ scale: 1, y: 0 }}
                             exit={{ scale: 0.9, y: 20 }}
                             onClick={(e) => e.stopPropagation()}
-                            className="relative w-full max-w-4xl bg-gradient-to-br from-zinc-900 to-black border border-white/20 rounded-2xl sm:rounded-3xl overflow-y-auto shadow-2xl my-4 sm:my-8 max-h-[90vh]"
+                            className="relative w-full max-w-4xl bg-gradient-to-br from-zinc-900 to-black border border-white/20 rounded-2xl sm:rounded-3xl overflow-y-auto shadow-2xl max-h-[90vh]"
                         >
                             {/* Header with Gradient */}
                             <div className={`relative p-6 sm:p-8 md:p-10 lg:p-12 bg-gradient-to-br ${selectedService.gradient} overflow-hidden`}>
