@@ -438,7 +438,7 @@ const Home = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         onClick={() => setSelectedService(null)}
-                        className="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-start justify-center p-4 overflow-y-auto"
+                        className="fixed inset-0 bg-black/80 backdrop-blur-md z-[100] flex items-start justify-center p-4 overflow-y-auto"
                     >
                         <motion.div
                             initial={{ scale: 0.9, y: 20 }}
